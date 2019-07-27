@@ -1,0 +1,19 @@
+<p>behaviour-subject works!</p>
+<div>
+  <button (click)="clickFn()">I am listening !!</button>
+
+  <p>Current value of click is {{ click }}</p>
+</div>
+
+<hr />
+
+<div>
+  <input
+    type="text"
+    name="input"
+    id="input"
+    placeholder="Write something here ..."
+    (change)="inputFn($event)"
+  />
+  <p>You typed :- {{ input ? input : "Nothing" }}</p>
+</div>

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.btn.btn-outline-primary {
+  border: solid 1px #8e906f;
+  border-radius: 20px;
+  color: black;
+  min-width: 10rem;
+}
+
+.btn.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  background-color: #8d8ca6;
+  color: #fff;
+}
